@@ -13,7 +13,9 @@ Usage
  - add startup logic to [index.js](https://github.com/wilton-iot/requirejs-nashorn/blob/master/index.js)
  - start application using [jjs launcher](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/jjs.html):
 
-     jjs runner.js -- your app args
+    ```
+    jjs runner.js -- your app args
+    ```
 
 License information
 -------------------
