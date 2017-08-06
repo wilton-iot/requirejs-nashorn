@@ -14,14 +14,17 @@
  * limitations under the License.
  */
 
-define(["lodash/forEach"], function(forEach) {
+define([
+    "lodash/capitalize",
+    "lodash/forEach"
+], function(capitalize, forEach) {
 
     return {
         // app startup point
         main: function() {
             // print user-specified arguments
             forEach(arguments, function(arg) {
-                print(arg);
+                print(capitalize(arg));
             });
         }
     };
